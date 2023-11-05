@@ -1,0 +1,201 @@
+body{
+	background-image: url("../png/112.jpg");
+	background-color: yellow;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.line{
+	width: 1.5px;
+	height: 350px;
+	display: inline-block;
+	background: red;
+	position: relative;
+	animation: line 8s infinite;
+}
+
+@keyframes line{
+	0%	{top: 0px; left: 50px}
+	10%	{top: 380px; left: 200px}
+	20%	{top: 380px; left: 230px; transform: rotate(190deg); background-color:orange;}
+	30%	{top: 200px; left: 204px; transform: rotate(110deg); background-color:yellow;}
+	40%	{top: 300px; left: 300px; transform: rotate(90deg); background-color:gold }
+	50%	{top: 100px; left: 600px; transform: rotate(50deg); background-color:green;}
+	60%	{top: 20px; left: 500px; transform: rotate(150deg); background-color:pink;}
+	70%	{top: 380px; left: 230px; transform: rotate(360deg); background-color:purple;}
+	80%	{top: 150px; left: 100px; transform: rotate(900deg); background-color:fuchsia;}
+	90%	{top: 100px; left: 400px; transform: rotate(110deg); background-color:darkkhaki;}
+	100% {top: 200px; left: 100px; transform: rotate(10deg); background-color:olive;}
+}
+
+.line2{
+	width: 2px;
+	height: 350px;
+	display: inline-block;
+	background: red;
+	position: relative;
+	animation: line2 10s infinite;
+}
+
+@keyframes line2{
+	0%	{top: 60px; left: 180px}
+	10%	{top: 380px; left: 10px}
+	20%	{top: 300px; left: 70px; transform: rotate(1900deg); background-color:orange;}
+	30%	{top: 200px; left: 274px; transform: rotate(1100deg); background-color:yellow;}
+	40%	{top: 300px; left: 380px; transform: rotate(9000deg); background-color:gold }
+	50%	{top: 100px; left: 690px; transform: rotate(50000deg); background-color:green;}
+	60%	{top: 20px; left: 960px; transform: rotate(1050deg); background-color:pink;}
+	70%	{top: 380px; left: 530px; transform: rotate(3600deg); background-color:purple;}
+	80%	{top: 150px; left: 680px; transform: rotate(9000deg); background-color:fuchsia;}
+	90%	{top: 100px; left: 700px; transform: rotate(600deg); background-color:darkkhaki;}
+	99% {top: 200px; left: 270px; transform: rotate(1000deg); background-color:olive;}
+	100% {top: 60px; left: 180px; transform: rotate(1000deg); background-color:red;}
+}
+.line3{
+	width: 1px;
+	height: 350px;
+	display: inline-block;
+	background: red;
+	position: relative;
+	animation: line3 3s infinite;
+}
+@keyframes line3{
+	0%	{top: 90px; left: 500px}
+	10%	{top: 140px; left: 700px}
+	20%	{top: 350px; left: 700px; transform: rotate(100deg); background-color:orange;}
+	30%	{top: 190px; left: 354px; transform: rotate(100deg); background-color:yellow;}
+	40%	{top: 380px; left: 666px; transform: rotate(90deg); background-color:gold }
+	50%	{top: 380px; left: 610px; transform: rotate(500deg); background-color:green;}
+	60%	{top: 280px; left: 360px; transform: rotate(100deg); background-color:pink;}
+	70%	{top: 380px; left: 280px; transform: rotate(360deg); background-color:purple;}
+	80%	{top: 150px; left: 800px; transform: rotate(90deg); background-color:fuchsia;}
+	90%	{top: 180px; left: 230px; transform: rotate(60deg); background-color:darkkhaki;}
+	100% {top: 280px; left: 970px; transform: rotate(100deg); background-color:olive;}
+}
+.line4{
+	width: 1px;
+	height: 350px;
+	display: inline-block;
+	background: red;
+	position: relative;
+	animation: line4 7s infinite;
+}
+@keyframes line4{   
+	0%	{top: 60px; right: -800px}
+	10%	{top: 380px; right: -600px}
+	20%	{top: 350px; right: -70px; transform: rotate(100deg); background-color:orange;}
+	30%	{top: 190px; right: -384px; transform: rotate(100deg); background-color:yellow;}
+	40%	{top: 380px; right: -666px; transform: rotate(90deg); background-color:gold }
+	50%	{top: 380px; right: -210px; transform: rotate(500deg); background-color:green;}
+	60%	{top: 280px; right: -560px; transform: rotate(100deg); background-color:pink;}
+	70%	{top: 380px; right: -480px; transform: rotate(360deg); background-color:purple;}
+	80%	{top: 150px; right: -800px; transform: rotate(90deg); background-color:fuchsia;}
+	90%	{top: 180px; right: -270px; transform: rotate(60deg); background-color:darkkhaki;}
+	100% {top: 280px; right: -770px; transform: rotate(100deg); background-color:olive;}
+}
+.line5{
+	width: 1px;
+	height: 350px;
+	display: inline-block;
+	background: red;
+	position: relative;
+	animation: line5 5s infinite;
+}
+@keyframes line5{   
+	0%	{top: 60px; left: 800px}
+	10%	{top: 38px; left: 600px}
+	20%	{top: 35px; left: 700px; transform: rotate(100deg); background-color:orange;}
+	30%	{top: 19px; left: 684px; transform: rotate(100deg); background-color:yellow;}
+	40%	{top: 30px; left: 666px; transform: rotate(90deg); background-color:gold }
+	50%	{top: 30px; left: 910px; transform: rotate(500deg); background-color:green;}
+	60%	{top: 28px; left: 860px; transform: rotate(100deg); background-color:pink;}
+	70%	{top: 38px; left: 680px; transform: rotate(360deg); background-color:purple;}
+	80%	{top: 15px; left: 700px; transform: rotate(360deg); background-color:fuchsia;}
+	90%	{top: 10px; left: 670px; transform: rotate(600deg); background-color:darkkhaki;}
+	100% {top: 28px; left: 770px; transform: rotate(100deg); background-color:olive;}
+}
+.line6{
+	width: 1.5px;
+	height: 350px;
+	display: inline-block;
+	background: red;
+	position: relative;
+	animation: line6 5s infinite;
+}
+@keyframes line6{   
+	0%	{top: 60px; left: 1000px}
+	10%	{top: 38px; left: 400px}
+	20%	{top: 350px; left: 1100px; transform: rotate(100deg); background-color:orange;}
+	30%	{top: 19px; left: 1300px; transform: rotate(100deg); background-color:yellow;}
+	40%	{top: 30px; left: 1266px; transform: rotate(90deg); background-color:gold }
+	50%	{top: 300px; left: 810px; transform: rotate(500deg); background-color:green;}
+	60%	{top: 208px; left: 960px; transform: rotate(100deg); background-color:pink;}
+	70%	{top: 38px; left: 1080px; transform: rotate(360deg); background-color:purple;}
+	80%	{top: 15px; left: 900px; transform: rotate(360deg); background-color:fuchsia;}
+	90%	{top: 10px; left: 470px; transform: rotate(6000000000000deg); background-color:darkkhaki;}
+	100% {top: 280px; left: 1000px; transform: rotate(100deg); background-color:olive;}
+}
+.line7{
+	width: 1.5px;
+	height: 350px;
+	display: inline-block;
+	background: red;
+	position: relative;
+	animation: line7 5s infinite;
+}
+@keyframes line7{   
+	0%	{top: 380px; left: 1300px}
+	10%	{top: 38px; left: 400px}
+	20%	{top: 350px; left: 1100px; transform: rotate(100deg); background-color:orange;}
+	30%	{top: 109px; left: 1300px; transform: rotate(100deg); background-color:yellow;}
+	40%	{top: 230px; left: 1266px; transform: rotate(90deg); background-color:gold }
+	50%	{top: 300px; left: 1110px; transform: rotate(500deg); background-color:green;}
+	60%	{top: 208px; left: 960px; transform: rotate(100deg); background-color:pink;}
+	70%	{top: 380px; left: 1080px; transform: rotate(360deg); background-color:purple;}
+	80%	{top: 105px; left: 900px; transform: rotate(360deg); background-color:fuchsia;}
+	90%	{top: 100px; left: 1270px; transform: rotate(6000000000000deg); background-color:darkkhaki;}
+	100% {top: 280px; left: 1000px; transform: rotate(100deg); background-color:olive;}
+}
+.line8{
+	width: 1500px;
+	height: 0.5px;
+	display: inline-block;
+	background: red;
+	position: relative;
+	animation: line8 5s infinite;
+}
+@keyframes line8{   
+	0%	{top: 38px; left: 0px}
+	10%	{top: 38px; left: 0px}
+	20%	{top: 350px; left: 0px; background-color:orange;}
+	30%	{top: 109px; left: 0px; background-color:yellow;}
+	40%	{top: 230px; left: 0px; background-color:gold }
+	50%	{top: 30px; left: 0px; background-color:green;}
+	60%	{top: 208px; left: 0px; background-color:pink;}
+	70%	{top: 38px; left: 0px;nbackground-color:purple;}
+	80%	{top: 105px; left: 0px; background-color:fuchsia;}
+	90%	{top: 100px; left: 0px; background-color:darkkhaki;}
+	100% {top: 280px; left: 0px; background-color:olive;}
+}
+.aa{
+	width: 200px;
+	height: 200px;
+	object-fit: contain;
+	display: inline-block;
+	position: relative;
+	animation: aa 60s 1;
+}
+@keyframes aa{
+	0%{left: 0px}
+	100%{left: 1025px;}
+	stop
+}
+.ss{
+	left: 1000px;
+	width: 300px;
+	height: 300px;
+	object-fit: contain;
+	display: inline-block;
+	position: relative;
+}
