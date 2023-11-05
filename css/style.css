@@ -141,12 +141,9 @@ body{
 	position: relative;
 	z-index: 1000;
 	animation: s 10s infinite;
+	transform: rotate(360deg);
 }
-@keyframes s{
-	0%{transform: rotate(360deg);}
-	50%{transform: rotate(360deg);}
-	100%{transform: rotate(360deg);}
-}
+
 
 .sa{
 	top: 450px;
@@ -158,12 +155,9 @@ body{
 	position: relative;
 	z-index: 1000;
 	animation: sa 10s infinite;
+	transform: rotate(360deg);
 }
-@keyframes sa{
-	0%{transform: rotate(360deg);}
-	50%{transform: rotate(360deg);}
-	100%{650px; transform: rotate(360deg);}
-}
+
 
 .ju{
 	top: 20px;
@@ -175,9 +169,6 @@ body{
 	position: relative;
 	z-index: 1000;
 	animation: ju 10s infinite;
+	transform: rotate(360deg);
 }
-@keyframes ju{
-	0%{transform: rotate(360deg);}
-	50%{transform: rotate(360deg);}
-	100%{transform: rotate(360deg);}
-}
+
