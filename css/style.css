@@ -122,7 +122,7 @@ body{
 }
 @keyframes a5{
 	0%{left: 100px; top: 200px}
-	15%{left: 200px; top: 250px}
+	15%{left: 200px; top: 250px;}
 	30%{left: 350px; top: 450px}
 	45%{left: 500px; top: 495px}
 	60%{left: 640px; top: 450px}
@@ -147,7 +147,7 @@ body{
 		transform: rotate(0deg);
 	}
 	to{
-		transform: rotate(360deg);
+		transform: rotate(900deg);
 	}
 
 }
@@ -162,7 +162,17 @@ body{
 	display: inline-block;
 	position: relative;
 	z-index: 1000;
-	transform: rotate(360deg);
+	animation: sa 5s alternate infinite;	
+}
+
+@keyframes sa{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(900deg);
+	}
+
 }
 
 
@@ -175,6 +185,15 @@ body{
 	display: inline-block;
 	position: relative;
 	z-index: 1000;
-	transform: rotate(360deg);
+	animation: sa 5s alternate infinite;
+}
+
+@keyframes ju{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(900deg);
+
 }
 
