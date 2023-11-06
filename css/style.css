@@ -140,8 +140,16 @@ body{
 	display: inline-block;
 	position: relative;
 	z-index: 1000;
-	animation: s 10s infinite;
-	transform: rotate(360deg);
+	animation: sun 5s alternate infinite;
+}
+@keyframes sun{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+
 }
 
 
@@ -154,7 +162,6 @@ body{
 	display: inline-block;
 	position: relative;
 	z-index: 1000;
-	animation: sa 10s infinite;
 	transform: rotate(360deg);
 }
 
@@ -168,7 +175,6 @@ body{
 	display: inline-block;
 	position: relative;
 	z-index: 1000;
-	animation: ju 10s infinite;
 	transform: rotate(360deg);
 }
 
